@@ -21,17 +21,45 @@ body {
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 .jumbotron {
-	background: #232f8b;
+	background: #1f8deb;
 	color: white;
 	text-align: center;
     text-shadow: 1px 1px 2px black;
     min-height: 100%;
+    margin-bottom: 0;
 }
 .title-text{
-    padding-top: 40vh;
-    -webkit-animation-duration: 1s; 
-     -moz-animation-duration: 1s;
-     -o-animation-duration: 1s;
-     animation-duration: 1s;
-    
+    padding-top: 40vh;    
+}
+
+delay-1{
+    animation-delay: .25s;
+}
+.delay-2{
+    animation-delay: .5s;
+}
+.delay-3{
+    animation-delay: .75s;
+}
+
+#aboutMe{
+    margin-top: 0;
+    margin-bottom: 0;
+    min-height: 60vh;
+    background-color: azure;
+}
+
+.header{
+    color: dimgray;
+}
+.icon{
+    font-size: 64px;
+    margin: 10px;
+    transition: all 0.2s ease;
+
+}
+
+.icon:hover {
+    color:grey;
+    transform: translateY(-3px);
 }
