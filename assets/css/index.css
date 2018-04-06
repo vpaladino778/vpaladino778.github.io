@@ -18,7 +18,12 @@ body {
 body {
   color: #fff;  
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+p{
+    color: darkslategrey;
+}
+h1{
+    color:black;
 }
 .jumbotron {
 	background: #1f8deb;
@@ -45,7 +50,6 @@ delay-1{
 #aboutMe{
     margin-top: 0;
     margin-bottom: 0;
-    min-height: 60vh;
     background-color: azure;
 }
 
@@ -62,4 +66,29 @@ delay-1{
 .icon:hover {
     color:grey;
     transform: translateY(-3px);
+}
+
+
+.scrollDown{
+    font-size: 32px;
+    transition: all 0.2s ease;
+
+}
+.scrollDown:hover{
+    transform: translateY(-3px);
+    color:grey;
+
+}
+.container{
+    height: 100%;
+    border-collapse: collapse;
+}
+#headshot{
+    height: 256px;
+    width: 256px;
+    border-radius: 200px;
+}
+#aboutMeContainer{
+padding-top: 10vh;
+padding-bottom: 10vh;
 }
