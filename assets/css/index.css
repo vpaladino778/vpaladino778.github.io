@@ -1,10 +1,10 @@
 /* Links */
-a,
-a:focus,
-a:hover {
+.icon,
+.icon:focus,
+.icon:hover {
   color: #fff;
 }
-
+    
 /*
  * Base structure
  */
@@ -16,7 +16,7 @@ body {
   overflow-x:hidden;
 }
 body {
-  color: #fff;  
+  color: darkslategrey;  
   text-align: center;
 }
 p{
@@ -24,6 +24,10 @@ p{
 }
 h1{
     color:black;
+    margin-top: 0;
+}
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
 }
 .jumbotron {
 	background: #1f8deb;
@@ -50,7 +54,7 @@ delay-1{
 #aboutMe{
     margin-top: 0;
     margin-bottom: 0;
-    background-color: azure;
+    background-color: #fff;
 }
 
 .header{
@@ -83,6 +87,11 @@ delay-1{
     height: 100%;
     border-collapse: collapse;
 }
+
+.altBackground{
+    background-color: #F3F9FE; 
+    padding-top: 32px;
+}
 #headshot{
     height: 256px;
     width: 256px;
@@ -91,4 +100,14 @@ delay-1{
 #aboutMeContainer{
 padding-top: 10vh;
 padding-bottom: 10vh;
+}
+
+.project{
+    padding-top: 15px;
+}
+.projectImg{
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    box-shadow: 2px 2px 3px dimgrey;
 }
