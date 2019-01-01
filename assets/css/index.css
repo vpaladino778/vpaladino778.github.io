@@ -93,8 +93,7 @@ delay-1{
     padding-top: 32px;
 }
 #headshot{
-    height: 256px;
-    width: 256px;
+    width: 50%;
     border-radius: 200px;
 }
 #aboutMeContainer{
