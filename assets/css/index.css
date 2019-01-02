@@ -97,12 +97,12 @@ delay-1{
     border-radius: 200px;
 }
 #aboutMeContainer{
-padding-top: 10vh;
-padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .project{
-    padding-top: 15px;
+    padding: 1em;
 }
 .projectImg{
     border-radius: 10px;
