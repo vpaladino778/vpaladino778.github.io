@@ -93,12 +93,12 @@ delay-1{
     padding-top: 32px;
 }
 #headshot{
-    width: 50%;
+    width: 65%;
     border-radius: 200px;
 }
 #aboutMeContainer{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
 }
 
 .project{
