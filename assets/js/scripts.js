@@ -8,4 +8,6 @@ $(document).ready(function(){
       }, 800, function(){
         window.location.hash = hash;
       });
-    } 
+    }
+  })
+}) 
